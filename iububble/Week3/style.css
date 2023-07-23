@@ -1,0 +1,48 @@
+/* header css 설정 */
+header{
+    display : flex;
+    justify-content : space-between;
+    background-color: rgb(1,120,212);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#header_icon{
+    display : flex;
+    column-gap: 20px;
+}
+/* nav와 main으로 창을 나누기 위해 css설정 */
+#main{
+    display : flex;   
+    height: 90vh;
+}
+
+/* main css설정 */
+main{
+    flex-grow : 4;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* nav css설정 */
+nav{
+    display : flex;
+    flex-grow : 0;
+    flex-direction: column;
+    justify-content : space-between;
+}
+/* nav(사이드바) 내부 설정 */
+.storage{
+    display : flex;
+    flex-direction: column;
+    justify-content : space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(1,120,212);
+    font-size: 10px;
+}
+
+/*  */
+#command_group{
+    display: flex;
+    justify-content: space-between;
+}
